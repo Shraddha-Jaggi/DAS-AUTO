@@ -6,7 +6,7 @@ A website to perform EDA on Automobile Dataset to help customer to buy his dream
 
 ![Logo](asset/images/logo.png)
 
-- [Video Demo](https://drive.google.com/file/d/1rB3InKqm5i_zouNGGy0K23inGFOSUimJ/view?usp=sharing)
+- [Video Demo](https://drive.google.com/file/d/1N6mBtXHmuIZI3g6199Ft14HTQfhPjDi-/view?usp=sharing)
 
 In everyday life, we have to make decisions for the betterment of our future, whether in personal life, health, or business. And when making a decision if we could analyze it, it will make our work easier. Data analysis is the process of evaluating, cleaning, modifying, and modeling data for the purpose of obtaining useful information, informing conclusions, and supporting decision-making.  I read an article published by Dana Saini, in which she mentioned how she used data analysis in her daily life. Even during this pandemic, data analysis played a huge role to predict the dangerous noble covid-19 waves.
 
