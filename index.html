@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAS AUTO</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!--cdn link for font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--linking css-->
+    <link rel="stylesheet" href="asset/style.css">
+
+
+
+</head>
+<body>
+    <!--starting of header-->
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><img src="asset/images/logo.png" height="25" width="75" alt="logo"></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#vehicles">Companies</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <!--Login-->
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </header>
+    <!--end of header-->
+
+    <!--login form-->
+<div class="login-form-container">
+
+    <span class="fas fa-times" id="close-login-form"></span>
+    <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box">
+        <input type="password" placeholder="password" class="box">
+        <p> forget your password <a href="#">click here</a> </p>
+        <input type="submit" value="login" class="btn">
+        <p>or login with</p>
+        <div class="buttons">
+            <a href="#" class="btn"> google </a>
+            <a href="#" class="btn"> facebook </a>
+        </div>
+        <p> don't have an account <a href="#">create one</a> </p>
+    </form>
+</div>
+
+<!--starting of Home section-->
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">find your car</h3>
+    <img data-speed="5" class="home-parallax" src="asset/images/home.jpg" alt="">
+    <a data-speed="7" href="#" class="btn home-parallax">Explore Companies</a>
+
+</section>
+
+<!--End of Home section-->
+
+<!--Starting of companies section-->
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading"> Popular <span>Brand</span></h1>
+    <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 1.png" alt="">
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 2.png" alt="">
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 3.png" alt="">
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 4.png" alt="">
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 5.png" alt="">
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 6.png" alt="">
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 7.png" alt="">
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="asset/images/logo 8.png" alt="">
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<!--End of companies section-->
+
+<!--Dashboard-->
+
+<h1 class="heading">Dashboard</h1>
+
+<iframe title="Das Auto" width="1600" height="800" align: "centre" src="https://app.powerbi.com/reportEmbed?reportId=bf99b63a-b248-4d4a-982c-a559f9
+b476fe&autoAuth=true&ctid=bf5d0de1-700b-45f1-9f35-26b15f18d61a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWluZGlhLWNlbnRyYWwtYS1wcmltYXJ
+5LXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameborder="0" 
+allowFullScreen="true"></iframe>
+
+
+<h1>For more details <a href="ANALYTICAL REPORT.pdf">Click here</a>
+</h1>
+<!--Contact us starts here-->
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Contact</span> us </h1>
+
+    <div class="row">
+
+     <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113579.63211774208!2d77.90980108915755!3d27.176309
+     7366887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39740d857c2f41d9%3A0x784aef38a9523b42!2sAgra%2C%20Uttar%2
+     0Pradesh!5e0!3m2!1sen!2sin!4v1653679923045!5m2!1sen!2sin" width="600" height="450"  allowfullscreen="" 
+     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     
+     <form action="">
+     <h3>get in touch</h3>
+     <input type="text" placeholder="Name" class="box">
+     <input type="email" placeholder="Email" class="box">
+     <input type="number" placeholder="Number" class="box">
+     <textarea placeholder="your message" class="box" cols="30" rows="10"></textarea>
+     <input type="submit" value="send message" class="btn">
+ </form>
+
+     </div>
+</section>
+<!--Contact us ends here-->
+
+<!--Footer starts here-->
+
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Companies </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Dashboard </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> abc@xyz.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> agra, india - 400104 </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> all rights reserved </div>
+
+</section>
+
+<!--Footer ens here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--slider-->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+     <!-- linking js-->
+    <script src="asset/script.js"></script>
+</body>
+</html>
